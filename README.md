@@ -25,6 +25,7 @@ An Simple code editor for javascript, typescript, html, css, sass, json and txt
 - [ ] .yarn
 
 # Screen Shots
+![Screenshot 2023-11-23 203505](https://github.com/drimerdev/uPlayCode/assets/121459810/27320ae7-1323-48dc-a2b4-393406e3866b)
 
 # Compiling
 
