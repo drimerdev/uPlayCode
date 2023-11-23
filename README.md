@@ -33,6 +33,6 @@ install dependences with npm install, test app with npm run start, compile for w
 
 # Thank you
 
-<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="drimerdev" data-color="#5F7FFF" data-emoji="☕"  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
+<a href="https://www.buymeacoffee.com/drimerdev"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=drimerdev&button_colour=5F7FFF&font_colour=ffffff&font_family=Arial&outline_colour=000000&coffee_colour=FFDD00" /></a>
 <br/>
 <p>Help me to continue with this project!<p>
