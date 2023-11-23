@@ -28,7 +28,7 @@ An Simple code editor for javascript, typescript, html, css, sass, json and txt
 
 # Compiling
 
-install dependences with npm install, test app with npm run start, compile for windows and linux with npm run dist, to copile on macos you will need to modify the package.json file and run the command
+install dependences with `npm install`, test app with `npm run start`, compile for windows and linux with `npm run dist`, to copile on macos you will need to modify the package.json file and run the command
 - prebuild versions for windows and linux in the release page
 
 # Thank you
