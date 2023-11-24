@@ -69,7 +69,7 @@ function createNewFile() {
 function openFile() {
   const files = dialog.showOpenDialogSync({
     properties: ['openFile'],
-    filters: [{ name: 'Text Files', extensions: ['txt', 'js', 'html', 'css', 'ts', 'json','php','htm', 'sass'] }],
+    filters: [{ name: 'Text Files', extensions: ['txt', 'js', 'html', 'css', 'ts', 'json','php','htm', 'sass','md'] }],
   });
 
   if (files && files.length > 0) {

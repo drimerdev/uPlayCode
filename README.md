@@ -7,7 +7,7 @@ An Simple code editor for javascript, typescript, html, css, sass, json and txt
 - [ ] .py
 - [ ] .h
 - [ ] .java
-- [ ] .md
+- [x] .md
 - [x] .js
 - [x] .ts
 - [x] .html
@@ -15,7 +15,7 @@ An Simple code editor for javascript, typescript, html, css, sass, json and txt
 - [x] .sass
 - [x] .json
 - [x] .txt
-- [ ] .php
+- [x] .php
 - [ ] .lua
 - [ ] .docx
 - [ ] .doc
