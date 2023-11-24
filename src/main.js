@@ -64,8 +64,10 @@ function createMenu() {
       label: 'Edit',
       submenu: [
         {
-          label: 'Select All',
-          click: '',
+          role: 'cut',
+          role: 'copy',
+          role: 'paste',
+          role: 'selectall'
         }
       ]
     }
