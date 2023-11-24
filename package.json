@@ -1,0 +1,24 @@
+{
+  "name": "uplaycode",
+  "version": "0.0.1",
+  "description": "an JS and TS playground",
+  "main": "main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "dist": "electron-builder -wl"
+  },
+  "author": "Miguel Vicente (drimerdev)",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^27.1.2",
+    "typescript": "^5.3.2",
+    "electron-builder": "^24.6.4"
+  },
+  "build": {
+    "appId": "com.uplaycode.drimerdev",
+    "mac": {
+      "category": "code.editor"
+    }
+  }
+}
