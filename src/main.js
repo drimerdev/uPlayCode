@@ -64,10 +64,10 @@ function createMenu() {
       label: 'Edit',
       submenu: [
         {
-          role: 'cut',
-          role: 'copy',
-          role: 'paste',
-          role: 'selectall'
+          { role: 'cut', }
+          { role: 'copy',}
+          { role: 'paste',}
+          { role: 'selectall'}
         }
       ]
     }
