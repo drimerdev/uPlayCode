@@ -12,6 +12,10 @@ function createWindow() {
     height: 600,
     webPreferences: {
       nodeIntegration: true,
+      devTools: true,
+      nodeIntegration: false, // Disable node integration
+      contextIsolation: true, // Enable context isolation
+      preload: path.join(__dirname, 'preload.js'), // Use the preload script
     },
   });
 
@@ -56,6 +60,15 @@ function createMenu() {
         { role: 'quit' },
       ],
     },
+    {
+      label: 'Edit',
+      submenu: [
+        {
+          label: 'Select All',
+          click: '',
+        }
+      ]
+    }
   ];
 
   const menu = Menu.buildFromTemplate(template);
@@ -103,7 +116,7 @@ function showAboutWindow() {
 
   aboutWindow.loadURL(
     url.format({
-      pathname: path.join(__dirname, '../about.html'),
+      pathname: path.join(__dirname, './src/about.html'),
       protocol: 'file:',
       slashes: true,
     })
